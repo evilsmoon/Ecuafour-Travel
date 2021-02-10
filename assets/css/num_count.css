@@ -1,0 +1,35 @@
+/*--------------*/
+
+.datos_valores {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+}
+
+.datos_valores ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.datos_valores ul li {
+    margin-left: 10rem;
+}
+
+.valores {
+    color: orangered;
+    font-size: 5rem;
+}
+
+.footer-contenido {
+    background-color: #000000;
+}
+
+.footer-contenido a:hover {
+    color: coral;
+}
+
+
+/*--------------*/
