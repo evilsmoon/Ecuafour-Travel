@@ -3,7 +3,7 @@
 <?php
  // $id_anuncio=$_GET['id'];
 
-  $mysqli = new mysqli('localhost', 'root', '', 'proyecto_arrriendos');
+  $mysqli = new mysqli('us-cdbr-east-03.cleardb.com','b447ac7ccdeb89', 'ee57c5c2', 'heroku_6cf9173bed03065');
  // $query = $mysqli -> query ("SELECT nombre_anuncio,usuario,comentario FROM anuncio,blog WHERE anuncio.id_anuncio='". $id_anuncio."'");
  $query = $mysqli -> query ("SELECT anuncio.nombre_anuncio,usuario,comentario FROM anuncio,blog WHERE anuncio.id_anuncio=blog.id_anuncio");
 ?>

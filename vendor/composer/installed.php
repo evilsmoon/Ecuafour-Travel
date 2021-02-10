@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '475bca65a3a9cc9aab93e012a0003f7d6ad137c3',
+    'reference' => '9173a6fd1c2332edced00cbf4ee947bf0c7e2bc2',
     'name' => 'gabri/ecuafourtour',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '475bca65a3a9cc9aab93e012a0003f7d6ad137c3',
+      'reference' => '9173a6fd1c2332edced00cbf4ee947bf0c7e2bc2',
     ),
   ),
 );
