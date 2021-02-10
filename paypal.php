@@ -3,7 +3,7 @@
 <?php include_once 'includes/templates/header.php' ?>
 
 <?php
- $connect = mysqli_connect("localhost", "root", "", "proyecto_ecuafourtour");    
+ $connect = mysqli_connect('us-cdbr-east-03.cleardb.com','b447ac7ccdeb89', 'ee57c5c2', 'heroku_6cf9173bed03065');    
  try{
 
   $sql="SELECT id_reserva FROM reserva ORDER BY id_reserva desc LIMIT 1";

@@ -2,7 +2,7 @@
  //filter.php  
  if(isset($_POST["from_date"], $_POST["to_date"]))  
  {  
-      $connect = mysqli_connect("localhost", "root", "", "proyecto_ecuafourtour");  
+      $connect = mysqli_connect('us-cdbr-east-03.cleardb.com','b447ac7ccdeb89', 'ee57c5c2', 'heroku_6cf9173bed03065');  
       $output = '';  
       $query = "  
            SELECT * FROM reserva

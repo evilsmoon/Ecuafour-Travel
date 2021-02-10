@@ -3,8 +3,8 @@
  $id_anuncio_res=$_POST['id_anuncio'];
  $fecha_inicio_res=$_POST['fecha_inicio'];
  $fecha_fin_res=$_POST['fecha_fin'];
- $connect = mysqli_connect("localhost", "root", "", "proyecto_ecuafourtour");    
- $connect2 = mysqli_connect("localhost", "root", "", "proyecto_ecuafourtour");  
+ $connect = mysqli_connect('us-cdbr-east-03.cleardb.com','b447ac7ccdeb89', 'ee57c5c2', 'heroku_6cf9173bed03065');    
+ $connect2 = mysqli_connect('us-cdbr-east-03.cleardb.com','b447ac7ccdeb89', 'ee57c5c2', 'heroku_6cf9173bed03065');  
    
  try{
 

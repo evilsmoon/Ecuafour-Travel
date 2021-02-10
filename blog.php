@@ -2,7 +2,7 @@
 
 <?php
  
-  $mysqli = new mysqli('localhost', 'root', '', 'proyecto_ecuafourtour');
+  $mysqli = new mysqli('us-cdbr-east-03.cleardb.com','b447ac7ccdeb89', 'ee57c5c2', 'heroku_6cf9173bed03065');
   $query = $mysqli -> query ("SELECT id_anuncio,nombre_anuncio FROM anuncio");
 ?>
 

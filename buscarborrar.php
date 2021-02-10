@@ -182,7 +182,7 @@ $where_join1="";
 ?>
 
       <?php  
- $connect = mysqli_connect("localhost", "root", "", "proyecto_ecuafourtour");  
+ $connect = mysqli_connect('us-cdbr-east-03.cleardb.com','b447ac7ccdeb89', 'ee57c5c2', 'heroku_6cf9173bed03065');  
  $query = "SELECT * FROM anuncio_img ORDER BY id_imagen asc";  
  $result = mysqli_query($connect, $query);  
  ?>
