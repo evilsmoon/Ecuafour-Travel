@@ -10,7 +10,7 @@
            
       $result = mysqli_query($connect, $query);  
       $output .= '  
-           <table class="table table-bordered">  
+           <table class="table">  
                 <tr>  
                 <th width="5%">ID</th>
                 <th width="12%">Inicio</th>

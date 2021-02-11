@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '9173a6fd1c2332edced00cbf4ee947bf0c7e2bc2',
+    'reference' => 'a5f36fd989050ec5bd6f79b1cb3594e27171051c',
     'name' => 'gabri/ecuafourtour',
   ),
   'versions' => 
@@ -42,7 +42,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '9173a6fd1c2332edced00cbf4ee947bf0c7e2bc2',
+      'reference' => 'a5f36fd989050ec5bd6f79b1cb3594e27171051c',
     ),
   ),
 );
