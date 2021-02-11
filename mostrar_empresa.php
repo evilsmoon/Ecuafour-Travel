@@ -38,9 +38,9 @@ $listaEmpresa=$crud->mostrar();
 
 <section id="specials" class="specials mt-5 table-responsive">
   <div class="col-lg-12 mt-5">
-    <div class="table-responsive">
+    <div class="container table-responsive">
 
-      <table class="table table-bordered" style="color: white ;">
+      <table class="table " style="color: white ;">
         <thead>
           <td>Logo</td>
           <td>Lema</td>
