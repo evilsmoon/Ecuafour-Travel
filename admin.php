@@ -135,7 +135,7 @@ $('#sesion').attr("data-toggle", "");
 	                    	<input type='hidden' name='insertar' value='insertar'>
                      </div>
                      <div class="text-center">
-                            <button type="submit">Guardar</button>
+                            <button class="btn btn-success" type="submit">Guardar</button>
                             </div>
                                     </form>
                                 </div>
@@ -171,7 +171,7 @@ $('#sesion').attr("data-toggle", "");
 	                    	<input type='hidden' name='insertar' value='insertar'>
                      </div>
                      <div class="text-center">
-                            <button type="submit">Guardar</button>
+                            <button  class="btn btn-success"  type="submit">Guardar</button>
                             </div>
                                     </form>
                                

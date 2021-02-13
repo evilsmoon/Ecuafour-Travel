@@ -124,8 +124,8 @@ include_once 'includes/templates/header.php'; ?>
       <h1>Control de la Empresa</h1>
       <div class="row mt-5">
         <div class="col-md-4 col-12">
-          <div class="counter bg-info rounded mb-2">
-            <h3 class="text-warning">Número de Aventureros</h3>
+          <div class="btn btn-info  counter bg-info rounded mb-2">
+            <h3 class="text-warning">Aventureros</h3>
             <?php
             foreach($resultado_reserva as $reserva):         
         ?>
@@ -136,7 +136,7 @@ include_once 'includes/templates/header.php'; ?>
           </div>
         </div>
         <div class="col-md-4 col-12">
-          <div class="counter bg-info rounded mb-2">
+          <div class="btn btn-info  counter bg-info rounded mb-2">
             <h3 class="text-warning">Hoteles totales</h3>
             <?php
             foreach($resultado_anuncios as $anuncios):       
@@ -148,7 +148,7 @@ include_once 'includes/templates/header.php'; ?>
           </div>
         </div>
         <div class="col-md-4 col-12">
-          <div class="counter bg-info rounded mb-2">
+          <div class=" btn btn-info  counter bg-info rounded mb-2">
             <h3 class="text-warning">Promociones </h3>
             <?php
             foreach($resultado_caducidad as $caducidad):       
